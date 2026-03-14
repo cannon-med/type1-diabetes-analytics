@@ -9,3 +9,5 @@ data/processed/
 *.twbx
 .env
 .DS_Store
+~$*.xlsx
+*.tmp
