@@ -17,3 +17,12 @@ CREATE TABLE IF NOT EXISTS t1d.fact_glucose (
     FOREIGN KEY (patient_id) REFERENCES t1d.dim_patient(patient_id)
 );
 
+CREATE TABLE IF NOT EXISTS t1d.fact_insulin (
+    insulin_event_id INT PRIMARY KEY,
+    patient_id INT NOT NULL,
+    administration_timestamp TIMESTAMP NOT NULL,
+    dose_units NUMERIC(5,2) NOT NULL,
+    delivery_method VARCHAR(50),
+    insulin_type VARCHAR(50),
+    FOREIGN KEY (patient_id) REFERENCES t1d.dim_patient(patient_id)
+);
