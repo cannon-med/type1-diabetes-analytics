@@ -1,9 +1,4 @@
 
-# Shorter README version
-
-If you want something tighter, use this:
-
-```markdown
 # Type 1 Diabetes Daily Monitoring Dashboard
 
 This project is a healthcare analytics portfolio project built with **SQL, PostgreSQL, Python, Pandas, Jupyter Notebook, Excel, and Tableau Public**. It analyzes synthetic Type 1 diabetes patient, glucose, and insulin data to support patient-level monitoring and dashboard reporting.
