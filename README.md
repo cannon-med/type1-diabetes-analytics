@@ -21,8 +21,8 @@ This project is a healthcare analytics portfolio project built with **SQL, Postg
 ## Tech Stack
 SQL, PostgreSQL, Python, Pandas, Jupyter Notebook, Excel, Tableau Public
 
-## Tableau Public
-[Add your Tableau Public link here]
+## Tableau Public Link
+[Tableau Public](https://public.tableau.com/app/profile/joshua.cannon/viz/T1DiabetesMonitoringDashboard/T1DiabetesMonitoringDashboard)
 
 ## Note
 This project uses synthetic data for portfolio demonstration purposes.
